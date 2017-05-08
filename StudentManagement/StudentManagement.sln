@@ -5,6 +5,12 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement", "StudentManagement\StudentManagement.csproj", "{B3C8C716-E8EB-430A-92BA-AF30C923BB06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{0880867E-1776-4D76-B66D-B0C0E7DC8EF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Repositories", "BL.Repositories\BL.Repositories.csproj", "{5D635536-5145-4635-8EFC-20F8FAE2115C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.Models", "BL.Models\BL.Models.csproj", "{E3ED20EB-3980-4BD3-B887-B2C349231993}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,20 @@ Global
 		{B3C8C716-E8EB-430A-92BA-AF30C923BB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3C8C716-E8EB-430A-92BA-AF30C923BB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3C8C716-E8EB-430A-92BA-AF30C923BB06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D635536-5145-4635-8EFC-20F8FAE2115C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D635536-5145-4635-8EFC-20F8FAE2115C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D635536-5145-4635-8EFC-20F8FAE2115C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D635536-5145-4635-8EFC-20F8FAE2115C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3ED20EB-3980-4BD3-B887-B2C349231993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3ED20EB-3980-4BD3-B887-B2C349231993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3ED20EB-3980-4BD3-B887-B2C349231993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3ED20EB-3980-4BD3-B887-B2C349231993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D635536-5145-4635-8EFC-20F8FAE2115C} = {0880867E-1776-4D76-B66D-B0C0E7DC8EF3}
+		{E3ED20EB-3980-4BD3-B887-B2C349231993} = {0880867E-1776-4D76-B66D-B0C0E7DC8EF3}
 	EndGlobalSection
 EndGlobal
